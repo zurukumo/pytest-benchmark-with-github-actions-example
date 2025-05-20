@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747760042618,
+  "lastUpdate": 1747760297253,
   "repoUrl": "https://github.com/zurukumo/pytest-benchmark-with-github-actions-example",
   "entries": {
     "Benchmark": [
@@ -31,6 +31,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0053153380648857055",
             "extra": "mean: 529.0785043999904 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zurukumo@gmail.com",
+            "name": "zurukumo",
+            "username": "zurukumo"
+          },
+          "committer": {
+            "email": "zurukumo@gmail.com",
+            "name": "zurukumo",
+            "username": "zurukumo"
+          },
+          "distinct": true,
+          "id": "f892b5f534fbed8f6cb90486320fec2a4a96c0d6",
+          "message": "feat: 速度を改善",
+          "timestamp": "2025-05-21T01:57:45+09:00",
+          "tree_id": "4b129a27d85233b58ff50b86818ee86de5d85080",
+          "url": "https://github.com/zurukumo/pytest-benchmark-with-github-actions-example/commit/f892b5f534fbed8f6cb90486320fec2a4a96c0d6"
+        },
+        "date": 1747760296878,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/test_prime.py::test_is_prime_benchmark",
+            "value": 12137.625311007523,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004686223016204667",
+            "extra": "mean: 82.38843879066751 usec\nrounds: 11477"
           }
         ]
       }
