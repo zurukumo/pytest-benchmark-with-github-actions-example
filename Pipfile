@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+pytest = "*"
+pytest-benchmark = "*"
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+test = "python -m pytest --benchmark-skip"
+benchmark = "python -m pytest --benchmark-only --benchmark-json output.json"
